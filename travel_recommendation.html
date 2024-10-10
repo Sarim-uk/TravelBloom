@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <nav>
+        <ul>
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="travelbloom_about.html">About Us</a></li>
+            <li><a href="travelbloom_contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div id="search-bar">
+        <input type="text" placeholder="Search destinations..." id="search-input">
+        <button onclick="performSearch()">Search</button>
+        <button onclick="clearSearch()">Clear</button> <!-- Corrected function name -->
+    </div>
+    <link rel="stylesheet" href="styles.css">
+</header>
+<body>
+    <main>
+        <div class="hero-image">
+            <h1>Explore Dream Destination</h1>
+            <p>Discover new cultures, extraordinary locations, and unforgettable experiences.</p>
+            <button onclick="bookNow()">Book Now</button>
+        </div>
+        <div id="recommendations-container"></div>
+        <footer>
+            <a href="https://www.facebook.com/TravelBloom">Facebook</a>
+            <a href="https://www.twitter.com/TravelBloom">Twitter</a>
+            <a href="https://www.instagram.com/TravelBloom">Instagram</a>
+        </footer>
+    </main>
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
